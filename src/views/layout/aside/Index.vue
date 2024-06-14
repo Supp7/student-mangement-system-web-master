@@ -6,11 +6,7 @@
       :collapse="isCollapse"
       :collapse-transition="true"
   >
-    <!--logo start-->
-    <div class="imgBox hidden-xs-only" v-if="!isCollapse">
-      <img src="../../../assets/logo.png">
-    </div>
-    <!--logo end-->
+
 
     <!--遍历菜单 start-->
     <template v-for="(v, index) in menuData" :key="index">

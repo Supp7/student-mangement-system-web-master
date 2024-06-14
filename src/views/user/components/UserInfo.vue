@@ -30,18 +30,13 @@
         <p>管理员可对本站数据、成绩、系统等进行管理</p>
         <p>普通用户可对成绩等进行管理</p>
         <br>
-        <p>如有问题可联系站长</p>
-        <p>
-          站长邮箱：<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=11184629@qq.com"
-                      target="_blank" data-v-634963c2="">11184629 @qq.com</a>
-        </p>
       </div>
       <el-divider />
       <h3 class="title">
         <el-icon style="margin-right: 10px;">
           <Watch />
         </el-icon>
-        本站运行天数（{{calculateDays('2022-12-20 00:00:00')}}）
+        本站运行天数（{{calculateDays('2024-6-10 00:00:00')}}）
       </h3>
     </div>
   </el-col>
