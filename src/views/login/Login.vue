@@ -10,7 +10,6 @@
     <div class="login-form">
       <!--标题和logo start-->
       <div class="login-title">
-        <img class="icon" src="../../assets/logo2.png">
         <h2 class="title">学生信息管理系统</h2>
       </div>
       <!--标题和logo end-->

@@ -66,17 +66,7 @@
     </el-col>
   </el-row>
   <!--本站数据统计 end-->
-  <!--学科成绩对比统计 start-->
-  <p style="margin-bottom:15px;color: #144b9f;">
-  <div style="width: 12px;height:12px;background-color:#f9a332;border-radius: 50%;float: left;margin-top: 5px;
-            margin-right: 8px;"></div>学科成绩对比统计
-  </p>
-  <el-row>
-    <el-col>
-      <AllSubjectScoreContrast :legendData="legendData" :seriesData="seriesData" :categoryData="categoryData"  height="400px" width="100%" id="bar"/>
-    </el-col>
-  </el-row>
-  <!--学科成绩对比统计 end-->
+
 </div>
 </template>
 
@@ -119,7 +109,7 @@ onMounted(() => {
 }
 .top_bg {
   width: 100%;
-  height: 200px;
+  height: 400px;
   background-image: url(../../assets/banner01.jpg);
   background-size: cover;
   background-position: center;
