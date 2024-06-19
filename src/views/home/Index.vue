@@ -6,10 +6,10 @@
     <p>学生信息管理系统·欢迎您</p>
   </div>
   <!--顶部背景图和内容 end-->
-  <!--本站数据统计 start-->
+  <!--数据统计 start-->
   <p style="margin-bottom:15px;color: #144b9f;">
   <div style="width: 12px;height:12px;background-color:#f9a332;border-radius: 50%;float: left;margin-top: 5px;
-            margin-right: 8px;"></div>本站数据统计
+            margin-right: 8px;"></div>数据统计
   </p>
   <el-row :gutter="40" class="data_row">
     <el-col :xs="24" :sm="12" :md="12" :lg="6" :xl="6">
@@ -65,7 +65,7 @@
       </div>
     </el-col>
   </el-row>
-  <!--本站数据统计 end-->
+  <!--数据统计 end-->
 
 </div>
 </template>

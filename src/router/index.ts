@@ -191,16 +191,6 @@ export const asyncRoutes = [
                 },
                 component: ()=> import('../views/census/ScoresCensus.vue')
             },
-            {
-                path: 'contrast',
-                name: 'scoresContrastCensusIndex',
-                meta: {
-                    title: '班级科目对比统计',
-                    icon: 'Notification',
-                    role: ['ROLE_USER','ROLE_ADMIN']
-                },
-                component: ()=> import('../views/census/ScoresContrastCensus.vue')
-            }
         ]
     }
 ]
